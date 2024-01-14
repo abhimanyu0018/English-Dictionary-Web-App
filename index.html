@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+      <section id="main">
+        <section id="header">
+            <div class="logo">English Dictionary</div>
+          </section>
+
+        <div class="dic-container">
+            <div class="search-container">
+                <input type="text" placeholder="Search a word" required id="input">
+                <button id="search-btn">search</button>
+            </div>
+            <div class="details hidden">
+                <h2 class="word"></h2>
+                <p class="vocal"></p>
+                <hr>
+                <div class="meaning-box">
+                    <h3>Meaning </h3>
+                    <p class="meaning"></p>
+                    
+                </div>
+                <div class="example-box">
+                    <h3>Example</h3>
+                    <p class="example"></p>
+                </div>    
+            </div>
+            <div class="error hidden">
+            </div>
+        </div>
+      </section>
+
+      <script src="script.js"></script>
+</body>
+</html>
